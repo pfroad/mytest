@@ -36,7 +36,7 @@ public class AccessProcessJob
 			
 			conf.setInputFormat(TextInputFormat.class);
 			conf.setOutputFormat(TextOutputFormat.class);
-			
+			//test remote
 			FileInputFormat.setInputPaths(conf, new Path(input));
 			FileOutputFormat.setOutputPath(conf, new Path(output));
 			
